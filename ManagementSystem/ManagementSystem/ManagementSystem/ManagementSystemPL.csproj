@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
+      <ProjectReference Include="..\ManagementSystemBLL\ManagementSystemBLL.csproj" />
     </ItemGroup>
 
 </Project>

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ManagementSystemDAL.Interfaces
 {
-    internal class IPayment
+    public interface IPayment
     {
+        void ProcessPayment(decimal amount);
     }
 }
